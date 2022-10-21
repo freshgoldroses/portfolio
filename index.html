@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <!-- <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        /> -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <title>Alina Makovii</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav container">
+                <a href="/" class="nav__logo">Makovii</a>
+
+                <!-- =============MENU=============== -->
+                <div class="nav__menu container">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active__link">
+                                <i class="bx bx-home-alt"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="bx bx-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-book"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#works" class="nav__link">
+                                <i class="bx bx-briefcase-alt-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contacts" class="nav__link">
+                                <i class="bx bx-message-square-detail"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme Change Button -->
+                <button class="nav__change-theme">
+                    <i class="bx bx-moon"></i>
+                </button>
+            </nav>
+        </header>
+
+        <!-- =============MAIN=============== -->
+        <main>
+            <!-- ==============HOME================ -->
+            <section class="home__section container" id="home">
+                <div class="home__greetings">Hello, I'm</div>
+                <h1 class="home__name">Alina Makovii</h1>
+                <h3 class="home__profession">Frontend Developer</h3>
+
+                <div class="home__buttons">
+                    <a
+                        download="CV Alina Makovii"
+                        href="#"
+                        class="button secondary-button"
+                    >
+                        Donload CV
+                    </a>
+                    <a href="#about" class="button primary-button">
+                        About Me
+                    </a>
+                </div>
+
+                <div class="home__photo">
+                    <img src="/images/me.png" alt="Alina Makovii Photo" />
+                </div>
+
+                <div class="home__social">
+                    <a
+                        href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0-%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2%D0%B5%D0%B9-6377b6216/"
+                        class="home__social-link"
+                        target="_blank"
+                    >
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                    <a
+                        href="https://github.com/freshgoldroses"
+                        class="home__social-link"
+                        target="_blank"
+                    >
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a
+                        href="https://instagram.com/ya.aliina?igshid=YmMyMTA2M2Y="
+                        class="home__social-link"
+                        target="_blank"
+                    >
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class="bx bx-mouse"></i>
+                    <span>Scroll Down</span>
+                </a>
+            </section>
+
+            <!-- ==============ABOUT=============== -->
+            <section class="about__section container" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__body">
+                    <div class="about__container">
+                        <img
+                            src="/images/about-photo.jpg"
+                            alt="Alina Makovii Photo"
+                            class="about__photo"
+                        />
+
+                        <div class="about__description-container">
+                            <p class="about__description">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Autem cumque, molestiae nam
+                                explicabo fugiat assumenda, debitis consequatur
+                                laborum repudiandae suscipit voluptates
+                                laudantium saepe ratione vero fuga illum modi,
+                                hic nemo?
+                            </p>
+                            <a
+                                href="#contacts"
+                                class="about__button button primary-button"
+                                >Contact Me</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============SKILLS=============== -->
+            <section class="skills__section container" id="skills">
+                <span class="section__subtitle">My Abilities</span>
+                <h2 class="section__title">My Expirience</h2>
+                <div class="skills__body">
+                    <div class="skills__list">
+                        <div class="skills__item">
+                            <img
+                                src="/images/html.png"
+                                alt="HTML"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">HTML</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/css.svg"
+                                alt="CSS"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">CSS</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/js.png"
+                                alt="js"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">JS</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/editor.png"
+                                alt="editor"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Editor</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/figma.png"
+                                alt="figma"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Figma</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/github.png"
+                                alt="github"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">GitHub</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/photoshop.svg"
+                                alt="photoshop"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Photoshop</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/flexbox.png"
+                                alt="flexbox"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Flexbox</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/vue.svg"
+                                alt="vue.js"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Vue.js</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/seo.png"
+                                alt="seo"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">SEO</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/api.png"
+                                alt="api"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">API</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/sql.png"
+                                alt="sql"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">SQL</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/hosting.png"
+                                alt="hosting"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Hosting</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/responsive.png"
+                                alt="responsive"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Responsive</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/bootstrap.png"
+                                alt="bootstrap"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Bootstrap</div>
+                        </div>
+                        <div class="skills__item">
+                            <img
+                                src="/images/jira.png"
+                                alt="jira"
+                                class="skills__photo"
+                            />
+                            <div class="skills__name">Jira</div>
+                        </div>
+                    </div>
+                    <img
+                        src="/images/computer.png"
+                        class="skills__illustration"
+                        alt=""
+                    />
+                </div>
+            </section>
+
+            <!-- ==============WORKS=============== -->
+            <section class="works__section container" id="works">
+                <span class="section__subtitle">My Portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="works__menu">
+                    <div class="works__menu-item works__active-tab">All</div>
+                    <div class="works__menu-item">Apps</div>
+                    <div class="works__menu-item">Landing Pages</div>
+                </div>
+
+                <div class="works__body">
+                    <div class="works__example">
+                        <img
+                            src="/images/weather-app.png"
+                            alt="Weather App"
+                            class="works__example-photo"
+                        />
+                        <div class="works__example-title">Weather app</div>
+                        <a href="https://www.shecodes.io/workshops/shecodes-plus-9105f99c-3cb9-4c30-b067-2fe257ea641b/projects/1169133" class="works__example-link app" target="_blank">
+                            Demo
+                            <i class="bx bx-chevron-right"></i>
+                        </a>
+                    </div>
+                    <div class="works__example">
+                        <img
+                        src="/images/friends.png"
+                        alt="Friends Page"
+                        class="works__example-photo"
+                        />
+                        <div class="works__example-title">Friends</div>
+                        <a href="https://www.shecodes.io/workshops/shecodes-basics-a2d35d5c-6a16-4390-b8fd-72efbe9bf241/projects/1046850" class="works__example-link landing-page" target="_blank">
+                            Demo
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============CONTACTS=============== -->
+            <section class="contacts section" id="contacts"></section>
+        </main>
+
+        <footer></footer>
+    </body>
+</html>
